@@ -97,9 +97,6 @@ public class ArvoreBinaria {
                     }
                 }else { //é a raiz
                     this.raiz = substituto;
-                    paiSubstituto.setEsq(null);
-                    this.raiz.setDir(paiSubstituto);
-                    this.raiz.setEsq(atual.getEsq());
                 }
 
                 //remove o elemento da árvore
